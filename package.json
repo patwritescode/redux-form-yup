@@ -1,0 +1,9 @@
+{
+    "name": "redux-form-yup",
+    "version": "0.0.1",
+    "dependencies": {
+        "object-set": "^1.0.1",
+        "yup": "^0.23.0"
+    },
+    "devDependencies": {}
+}
