@@ -1,6 +1,6 @@
 import * as set from "object-set";
 
-const asyncValidate = (schema) => {
+const asyncValidate = <T>(schema: Schema<T>) => {
     return async (values) => {
         return await schema
             .validate(values, {abortEarly: false})
