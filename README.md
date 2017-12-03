@@ -1,6 +1,6 @@
 # redux-form-yup
 
-[![npm version](https://badge.fury.io/js/redux-form-yup.svg)](https://badge.fury.io/js/tinjector)
+[![npm version](https://badge.fury.io/js/redux-form-yup.svg)](https://badge.fury.io/js/redux-form-yup)
 
 ### What is this?
 
