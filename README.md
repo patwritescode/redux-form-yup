@@ -63,3 +63,8 @@ export default reduxForm({
 ### TypeScript
 
 `redux-form-yup` was made with TypeScript and as such its own types are bundled. You will need your own types for `yup` and `redux-form`.
+
+
+### Async/Await & Promises
+
+`redux-form` asyncValidate is promise driven as such `redux-form-yup` requires Promise to be available. For older browsers I suggest using [`es6-promise`](https://github.com/stefanpenner/es6-promise) global installer `require('es6-promise/auto');`.
