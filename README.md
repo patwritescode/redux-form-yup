@@ -62,7 +62,7 @@ export default reduxForm({
 
 ### TypeScript
 
-`redux-form-yup` was made with TypeScript and as such its own types are bundled. You will need your own types for `yup` and `redux-form`.
+`redux-form-yup` was made with TypeScript and as such its own types are bundled. You will need your own types for `yup` and `redux-form`. You can get these from `@types/redux-form` and (soon) `@types/yup`.
 
 
 ### Async/Await & Promises
