@@ -1,6 +1,6 @@
 {
     "name": "redux-form-yup",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Automatic async validation for redux-form using yup schemas.",
     "main": "./index.js",
     "types": "./index.d.ts",

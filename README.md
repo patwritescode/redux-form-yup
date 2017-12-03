@@ -14,7 +14,7 @@ This is an async validation function that takes in a `yup` schema and validates 
 
 The structure of your schema should exactly match the structure of values return from your form. Yup will allow you to create complex object schemas as well as work with validating arrays.
 
-```
+```javascript
 const schema = yup
     .object()
     .shape({ 
@@ -32,7 +32,7 @@ const schema = yup
 
 So the above would look maybe something like:
 
-```
+```javascript
     <Field name="firstName" component={customRender} type="text" />
     <Field name="lastName" component={customRender} type="text" />
     <Field name="email" component={customRender} type="text" />
@@ -52,10 +52,14 @@ So the above would look maybe something like:
 
 ###### Add both as options to your HoC
 
-```
+```javascript
 export default reduxForm({
     form: "contact",
     asyncValidate: asyncValidate(schema),
     shouldAsyncValidate,
 })(ContactForm);
 ```
+
+### TypeScript
+
+`redux-form-yup` was made with TypeScript and as such its own types are bundled. You will need your own types for `yup` and `redux-form`.
