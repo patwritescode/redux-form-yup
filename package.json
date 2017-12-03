@@ -1,6 +1,15 @@
 {
     "name": "redux-form-yup",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "description": "Automatic async validation for redux-form using yup schemas.",
+    "main": "./index.js",
+    "types": "./index.d.ts",
+    "keywords": [
+        "yup",
+        "redux-form",
+        "validation"
+    ],
+    "repository": "patwritescode/redux-form-yup",
     "scripts": {
         "build": "tsc"
     },
@@ -10,5 +19,10 @@
     },
     "devDependencies": {
         "typescript": "^2.6.2"
+    },
+    "author": {
+        "name": "Patrick Dunn",
+        "email": "patnpm@outlook.com",
+        "url": "http://patrickdunn.org"
     }
 }

@@ -7,7 +7,7 @@ const asyncValidate = <T>(schema: Schema<T>) => {
             .then(() => {})
             .catch((errors) => {
                 const formErrors = {};
-                errors.inner.foreach((error) => {
+                errors.inner.forEach((error) => {
                     set(formErrors, error.path, error.message);
                 });
                 return formErrors;
