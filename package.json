@@ -4,6 +4,7 @@
     "description": "Automatic async validation for redux-form using yup schemas.",
     "main": "./index.js",
     "types": "./index.d.ts",
+    "license": "MIT",
     "keywords": [
         "yup",
         "redux-form",
