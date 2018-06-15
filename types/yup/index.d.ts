@@ -53,6 +53,7 @@ interface Schema<T> {
     isValid(value: any, options?: any, callback?: () => void): Promise<any>;
     transform(transformation: (currentValue: any, originalValue: any) => any): Schema<T>;
     validate(value: any, options?: ValidateOptions, callback?: () => void): Promise<any>;
+    validateSync(value: any, options?: ValidateOptions, callback?: () => void): any;
     test(name: string, message: string, test: Function, callbackStyleAsync?: boolean): Schema<T>;
     when(keys: string | Array<string>, builder: any | ((value: any, schema: Schema<T>) => Schema<T>)): Schema<T>;
 }
