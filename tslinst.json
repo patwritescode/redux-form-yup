@@ -1,0 +1,14 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "ordered-imports": false,
+        "interface-over-type-literal": false,
+        "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"],
+        "no-console": [true, "log", "error", "info"]
+    },
+    "linterOptions": {
+        "exclude": [
+            "node_modules"
+        ]
+    }
+}

@@ -1,9 +1,11 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "es2015",
         "target": "es5",
-        "lib": [
-            "es2015"
-        ]
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "declaration": true,
+        "declarationDir": "./dist",
     }
 }

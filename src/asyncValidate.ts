@@ -1,4 +1,5 @@
-import * as set from "object-set";
+import set from "object-set";
+import { Schema } from "yup";
 
 const asyncValidate = <T>(schema: Schema<T>) => {
     return async (values) => {
