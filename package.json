@@ -15,7 +15,7 @@
         "build": "rollup -c",
         "lint": "tslint --project . --fix",
         "test": "jest",
-        "prepublish": "npm test && npm run lint && npm run build"
+        "prepublish": "npm run lint && npm run build"
     },
     "dependencies": {
         "object-set": "^1.0.1",
