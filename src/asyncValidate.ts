@@ -11,7 +11,7 @@ const asyncValidate = <T>(schema: Schema<T>) => {
                 errors.inner.forEach((error) => {
                     set(formErrors, error.path, error.message);
                 });
-                return formErrors;
+                throw formErrors;
             });
     }
 }
